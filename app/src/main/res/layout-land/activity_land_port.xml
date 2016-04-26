@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <de.mctom20.flaggenlernen.FlagImageButton
+            android:id="@+id/imageButton1"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:layout_weight="1"
+            android:src="@drawable/dummy"
+            android:onClick="flagButtonClicked"
+            />
+
+        <de.mctom20.flaggenlernen.FlagImageButton
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:layout_weight="1"
+            android:src="@drawable/dummy"
+            android:onClick="flagButtonClicked"
+            android:id="@+id/imageButton2"
+            />
+
+        <de.mctom20.flaggenlernen.FlagImageButton
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:layout_weight="1"
+            android:src="@drawable/dummy"
+            android:onClick="flagButtonClicked"
+            android:id="@+id/imageButton3"
+             />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <de.mctom20.flaggenlernen.FlagImageButton
+            android:id="@+id/imageButton4"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:layout_weight="1"
+            android:src="@drawable/dummy"
+            android:onClick="flagButtonClicked"
+            />
+
+        <de.mctom20.flaggenlernen.FlagImageButton
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:layout_weight="1"
+            android:src="@drawable/dummy"
+            android:onClick="flagButtonClicked"
+            android:id="@+id/imageButton5"
+            />
+
+        <de.mctom20.flaggenlernen.FlagImageButton
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:layout_weight="1"
+            android:src="@drawable/dummy"
+            android:onClick="flagButtonClicked"
+            android:id="@+id/imageButton6"
+             />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <de.mctom20.flaggenlernen.FlagImageButton
+            android:layout_marginTop="5dp"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:id="@+id/imageButton_play"
+            android:src="@drawable/flagge"
+            android:adjustViewBounds="true"
+            android:onClick="playButtonClicked"
+            android:scaleType="fitCenter"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
