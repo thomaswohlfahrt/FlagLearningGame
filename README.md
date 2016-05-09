@@ -8,4 +8,4 @@ Here some screenshots: <br>
 <img src="./screenshots/s1.png" width="250">
 <img src="./screenshots/s2.png" width="250">
 <img src="./screenshots/s3.png" width="250">
-<img src=",/screenshots/s4.png" width="500">
+<img src="./screenshots/s4.png" width="500">
